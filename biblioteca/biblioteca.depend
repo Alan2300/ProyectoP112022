@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1647906054 source:c:\users\abima\proyectos\tareasgit\proyectop112022\biblioteca\main.cpp
+	<iostream>
+	"persona.h"
+
+1647906113 c:\users\abima\proyectos\tareasgit\proyectop112022\biblioteca\include\persona.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1647906054 source:c:\users\abima\proyectos\tareasgit\proyectop112022\biblioteca\src\persona.cpp
+	"persona.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
