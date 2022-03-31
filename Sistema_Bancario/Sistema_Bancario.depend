@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1648733267 source:c:\users\visitante\proyectos\didactica2k\temporal\prograuno\archivos\proyectobancario\sistema_bancario\src\datoscliente.cpp
+	<iostream>
+	<cstring>
+	"datosCliente.h"
+
+1648736206 c:\users\visitante\proyectos\didactica2k\temporal\prograuno\archivos\proyectobancario\sistema_bancario\include\datoscliente.h
+	<iostream>
+
+1648736577 source:c:\users\visitante\proyectos\didactica2k\temporal\prograuno\archivos\proyectobancario\sistema_bancario\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+	"datosCliente.h"
+
+1648737716 source:c:\users\abima\proyectos\prograuno\archivos\proyectobancario\sistema_bancario\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+	"datosCliente.h"
+
+1648737716 c:\users\abima\proyectos\prograuno\archivos\proyectobancario\sistema_bancario\include\datoscliente.h
+	<iostream>
+
+1648737716 source:c:\users\abima\proyectos\prograuno\archivos\proyectobancario\sistema_bancario\src\datoscliente.cpp
+	<iostream>
+	<cstring>
+	"datosCliente.h"
+
+1648765814 source:c:\users\abima\proyectos\tareasgit\proyectop112022\sistema_bancario\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+	"datosCliente.h"
+
+1648737716 c:\users\abima\proyectos\tareasgit\proyectop112022\sistema_bancario\include\datoscliente.h
+	<iostream>
+
+1648737716 source:c:\users\abima\proyectos\tareasgit\proyectop112022\sistema_bancario\src\datoscliente.cpp
+	<iostream>
+	<cstring>
+	"datosCliente.h"
+
