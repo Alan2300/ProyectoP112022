@@ -37,7 +37,6 @@ void mostrarLinea( ostream&, const DatosCliente & );
 int obtenerCuenta( const char * const );
 void crearArchivoCredito();
 void consultarRegistro( fstream& );
-void mostrarLineaPantalla( const DatosCliente &);
 
 enum Opciones { IMPRIMIR = 1, ACTUALIZAR, NUEVO, ELIMINAR, CONSULTAR, FIN };
 
@@ -347,7 +346,7 @@ void consultarRegistro( fstream &leerDeArchivo )
 
       // escribir un registro individual en el archivo de texto
       if ( cliente.obtenerNumeroCuenta() != 0 )
-         mostrarLineaPantalla(cliente);
+         mostrarLinea(cout, cliente);
 
       // leer siguiente registro del archivo de registros
       leerDeArchivo.read( reinterpret_cast< char * >( &cliente ),
@@ -360,22 +359,13 @@ void consultarRegistro( fstream &leerDeArchivo )
 // mostrar registro individual
 void mostrarLinea( ostream &salida, const DatosCliente &registro )
 {
-   salida << left << setw( 10 ) << registro.obtenerNumeroCuenta()
-          << setw( 16 ) << registro.obtenerApellido().data()
-          << setw( 14 ) << registro.obtenerPrimerNombre().data()
-          << setw( 10 ) << setprecision( 2 ) << right << fixed
-          << showpoint << registro.obtenerSaldo() << endl;
-
-} // fin de la función mostrarLinea
-void mostrarLineaPantalla( const DatosCliente &registro )
-{
    cout << left << setw( 10 ) << registro.obtenerNumeroCuenta()
           << setw( 16 ) << registro.obtenerApellido().data()
           << setw( 14 ) << registro.obtenerPrimerNombre().data()
           << setw( 10 ) << setprecision( 2 ) << right << fixed
           << showpoint << registro.obtenerSaldo() << endl;
 
-} // fin de la función mostrarLineaPantalla
+} // fin de la función mostrarLinea
 
 // obtener el valor del número de cuenta del usuario
 int obtenerCuenta( const char * const indicador )
